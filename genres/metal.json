@@ -1,0 +1,9 @@
+{
+  "genre": "Metal",
+  "origine": "Royaume-Uni, années 70",
+  "artistes": ["Black Sabbath", "Iron Maiden", "Metallica"],
+  "playlists": {
+    "YouTube": "https://www.youtube.com/watch?v=CD-E-LDc384&list=PLmXxqSJJq-yUwqtbp8MHBoTDoDULMoViq"
+  },
+  "variantes": ["Heavy Metal", "Thrash", "Death Metal"]
+}
