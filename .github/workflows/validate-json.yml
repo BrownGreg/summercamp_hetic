@@ -1,0 +1,22 @@
+name: Validate JSON & Merge
+
+on:
+  pull_request:
+    paths:
+      - 'genres/*.json'
+
+jobs:
+  validate-json:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Validate JSON files
+        run: |
+          sudo apt-get install jq -y
+          for file in genres/*.json; do
+            echo "Vérification : $file"
+            jq empty "$file" || exit 1
+          done
+      - name: Merge all genres into catalogue.json
+        run: |
+          python3 scripts/merge.py
