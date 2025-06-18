@@ -6,17 +6,38 @@ on:
       - 'genres/*.json'
 
 jobs:
-  validate-json:
+  validate-and-merge:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v2
-      - name: Validate JSON files
+      - name: 📥 Checkout repository
+        uses: actions/checkout@v2
+
+      - name: 🧰 Install jq
         run: |
+          sudo apt-get update
           sudo apt-get install jq -y
-          for file in genres/*.json; do
-            echo "Vérification : $file"
-            jq empty "$file" || exit 1
-          done
-      - name: Merge all genres into catalogue.json
+
+      - name: 🧪 Validate all JSON files in genres/
         run: |
+          echo "🔍 Vérification des fichiers JSON dans le dossier genres/"
+          shopt -s nullglob
+          files=(genres/*.json)
+          if [ ${#files[@]} -eq 0 ]; then
+            echo "⚠️ Aucun fichier JSON trouvé dans genres/"
+            exit 0
+          fi
+
+          for file in "${files[@]}"; do
+            echo "✅ Vérification : $file"
+            jq empty "$file" || {
+              echo "❌ JSON invalide : $file"
+              exit 1
+            }
+          done
+          echo "✅ Tous les fichiers JSON sont valides !"
+
+      - name: 🐍 Run Python merge script
+        run: |
+          echo "📦 Fusion des genres dans catalogue.json"
           python3 scripts/merge.py

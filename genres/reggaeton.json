@@ -1,18 +1,18 @@
 {
-  "genre": "Reggaeton",
-  "origine": "Amerique Latine",
-  "artistes": [
-    "BadBunny",
-    "Don Omar",
-    "Ozuna",
-    "Daddy Yankee",
-    "Nicky Jam"
-  ],
-  "playlists": {
-    "YouTube": "https://youtube.com/playlist?list=PLCQHZp35U7j9DQ0VYhh7crU1hhPURjKsA&si=MJfbE4hj2d_7zCei"
-  },
-  "variantes": [
-    "Reggaeton",
-    "Dembow"
-  ]
+    "genre": "Reggaeton",
+    "origine": "Amerique Latine",
+    "artistes": [
+        "BadBunny",
+        "Don Omar",
+        "Ozuna",
+        "Daddy Yankee",
+        "Nicky Jam"
+    ],
+    "playlists": {
+        "YouTube": "https://youtube.com/playlist?list=PLCQHZp35U7j9DQ0VYhh7crU1hhPURjKsA&si=MJfbE4hj2d_7zCei"
+    },
+    "variantes": [
+        "Reggaeton",
+        "Dembow"
+    ]
 }

@@ -1,20 +1,20 @@
 {
-  "genre": "RapFR",
-  "origine": "France, années 1995",
-  "artistes": [
-    "Booba",
-    "Kaaris",
-    "La Fouine",
-    "Bigflo & Oli",
-    "SDM"
-  ],
-  "playlists": {
-    "YouTube": "https://www.youtube.com/watch?v=3egagRvougI&ab_channel=B20baOfficiel"
-  },
-  "variantes": [
-    "Drill",
-    "Trap",
-    "Rap Conscient",
-    "Cloud rap"
-  ]
+    "genre": "RapFR",
+    "origine": "France, années 1995",
+    "artistes": [
+        "Booba",
+        "Kaaris",
+        "La Fouine",
+        "Bigflo & Oli",
+        "SDM"
+    ],
+    "playlists": {
+        "YouTube": "https://www.youtube.com/watch?v=3egagRvougI&ab_channel=B20baOfficiel"
+    },
+    "variantes": [
+        "Drill",
+        "Trap",
+        "Rap Conscient",
+        "Cloud rap"
+    ]
 }
