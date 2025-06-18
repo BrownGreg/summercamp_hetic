@@ -1,5 +1,43 @@
 [
   {
+    "genre": "Reggaeton",
+    "origine": "Amerique Latine",
+    "artistes": [
+      "BadBunny",
+      "Don Omar",
+      "Ozuna",
+      "Daddy Yankee",
+      "Nicky Jam"
+    ],
+    "playlists": {
+      "YouTube": "https://youtube.com/playlist?list=PLCQHZp35U7j9DQ0VYhh7crU1hhPURjKsA&si=MJfbE4hj2d_7zCei"
+    },
+    "variantes": [
+      "Reggaeton",
+      "Dembow"
+    ]
+  },
+  {
+    "genre": "RapFR",
+    "origine": "France, années 1995",
+    "artistes": [
+      "Booba",
+      "Kaaris",
+      "La Fouine",
+      "Bigflo & Oli",
+      "SDM"
+    ],
+    "playlists": {
+      "YouTube": "https://www.youtube.com/watch?v=3egagRvougI&ab_channel=B20baOfficiel"
+    },
+    "variantes": [
+      "Drill",
+      "Trap",
+      "Rap Conscient",
+      "Cloud rap"
+    ]
+  },
+  {
     "genre": "Synthwave",
     "origine": "France, années 2000",
     "artistes": [
@@ -13,6 +51,23 @@
     "variantes": [
       "Darksynth",
       "Outrun"
+    ]
+  },
+  {
+    "genre": "Metal",
+    "origine": "Royaume-Uni, années 70",
+    "artistes": [
+      "Black Sabbath",
+      "Iron Maiden",
+      "Metallica"
+    ],
+    "playlists": {
+      "YouTube": "https://www.youtube.com/watch?v=CD-E-LDc384&list=PLmXxqSJJq-yUwqtbp8MHBoTDoDULMoViq"
+    },
+    "variantes": [
+      "Heavy Metal",
+      "Thrash",
+      "Death Metal"
     ]
   }
 ]
